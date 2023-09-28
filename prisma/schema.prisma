@@ -57,7 +57,7 @@ model Chapter {
   description String? @db.Text
   videoUrl String? @db.Text
   position Int
-  isPublised Boolean @default(false)
+  isPublished Boolean @default(false)
   isFree Boolean @default(false)
 
   muxData MuxData?
